@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Dino Jump Andrea Onesti/1.0.0": {
+        "runtime": {
+          "Dino Jump Andrea Onesti.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dino Jump Andrea Onesti/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,30 @@
+﻿<Window x:Class="Dino_Jump_Andrea_Onesti.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dino_Jump_Andrea_Onesti"
+        mc:Ignorable="d"
+        Title="GameWindow" Height="1080" Width="1920" WindowState="Maximized" WindowStyle="None" KeyDown="KeyboardInput">
+    <Canvas Name="GameCanvas">
+        <Rectangle Name="backgroundSky1" Height="1080" Width="2000" Fill="LightBlue" Canvas.Left="0"/>
+        <Rectangle Name="backgroundSky2" Height="1080" Width="2000" Fill="LightBlue" Canvas.Left="2000"/>
+        <Rectangle Name="backgroundLandscape1" Height="1080" Width="2000" Fill="LightGreen" Canvas.Top="300" Canvas.Left="0"/>
+        <Rectangle Name="backgroundLandscape2" Height="1080" Width="2000" Fill="LightGreen" Canvas.Top="300" Canvas.Left="2000"/>
+
+        <Rectangle Name="obstacle1" Height="250" Width="100" Fill="Red" Canvas.Top="850" Canvas.Left="2000"/>
+        <Rectangle Name="obstacle2" Height="250" Width="100" Fill="Red" Canvas.Top="850" Canvas.Left="4000"/>
+        <Rectangle Name="powerup" Height="100" Width="100" Fill="Gold" Canvas.Top="800" Canvas.Left="2000"/>
+
+        <Rectangle Name="player" Height="150" Width="100" Fill="Blue" Canvas.Top="830" Canvas.Left="300"/>
+        <Rectangle Name="floor" Height="100" Width="1920" Fill="Black" Canvas.Top="980" Canvas.Left="0"/>
+        <Rectangle Name="floor2" Height="100" Width="1920" Fill="Black" Canvas.Top="980" Canvas.Left="1920"/>
+
+        <Label Name="score" Content="Score: 0" Height="80" Width="1920" FontSize="60" FontFamily="Bebas Neue" VerticalContentAlignment="Center"/>
+        <Label Name="powerupTimer" Content="" Height="100" Width="1920" FontSize="60" FontFamily="Bebas Neue" VerticalContentAlignment="Center" Canvas.Top="80"/>
+
+        <Label Name="startText" Content="Press enter to start!" Height="1080" Width="1920" FontSize="90" FontFamily="Bebas Neue" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Canvas.Top="0" Canvas.Left="0"/>
+        <Label Name="gameOverText" Content="Game over!" Height="150" Width="400" FontSize="90" FontFamily="Bebas Neue" Visibility="Hidden" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Canvas.Top="0" Canvas.Left="0"/>
+        <Label Name="gameOverText2" Content="Enter to restart / Esc to exit" Height="100" Width="700" FontSize="40" FontFamily="Bebas Neue" Visibility="Hidden" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Canvas.Top="0" Canvas.Left="0"/>
+    </Canvas>
+</Window>
