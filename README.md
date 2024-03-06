@@ -1,5 +1,5 @@
 # Dino Jump
-<h2>School project "Dino Jump" - January 2022</h2>
+## School project "Dino Jump" - January 2022
 
 Missing files because they were too large for Github:
 <ul>
